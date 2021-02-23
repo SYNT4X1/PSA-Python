@@ -201,19 +201,9 @@ def init(NumberOfIDS = '5', NumberOfEQ = '4', BlockWidth = '30', BlockHeight = '
 
 init(4,4,30,32)
 
-# print(IDS, "\n")
-# print(STRINGS, "\n")
-# print(LIB_BLOCKS, "\n")
-# print(LIB_EQ, "\n")
-#print(LIB_BLOCKS[LIB_EQ['a'].split('+')[1]][1])
-# print(Encrypt("test"))
-# print(Encrypt("test"))
-# print(Encrypt("test"))
-# print(Encrypt("test"))
+print(Encrypt("test"))
+print(Encrypt("test"))
+print(Encrypt("test"))
+print(Encrypt("test"))
 
-print(Encrypt('Fuck it ALLL 123'),"\n")
-print(Encrypt('Fuck it ALLL 123'),"\n")
-print(Encrypt('Fuck it ALLL 123'),"\n")
-print(Encrypt('Fuck it ALLL 123'),"\n")
-
-print(Decrypt(Encrypt('Fuck it ALL 123')))
+print(Decrypt(Encrypt('test')))
