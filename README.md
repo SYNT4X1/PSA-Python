@@ -5,4 +5,6 @@ scalable in every sense of the word. So if you want more variance in the polymor
 resources to do so. One of the immediate drawbacks of PSA, is it's abundment amount of memory usage and data output, so if you plan to use it for any
 legitmate purposes, keep that in mind. 
 
-![alt text](https://github.com/SyntaxError2435/imageSources/blob/main/PSA.png)
+<p>
+  <img src="https://github.com/SyntaxError2435/imageSources/blob/main/PSA.png">
+</p>
