@@ -470,18 +470,9 @@ class PSA:
 
                     decryptedBytes.append(key)
 
-        decoded = str(base64.b64decode("b"+str("".join(decryptedBytes)),"utf-8")) # the decrypted bytes will be encoded in base64 we need to decode originally encrypted test 
+        decoded = str(base64.b64decode(str("".join(decryptedBytes))),'utf-8') # the decrypted bytes will be encoded in base64 we need to decode originally encrypted test
         
         return decoded
-
-# print("This is a cool bit a text that when encrypted looks like this!")
-# print(PSA.encrypt("This is a cool bit a text that when encrypted looks like this!")+"\n")
-# print("or this!")
-# print(PSA.encrypt("This is a cool bit a text that when encrypted looks like this!")+"\n")
-# print("or this")
-# print(PSA.encrypt("This is a cool bit a text that when encrypted looks like this!")+"\n")
-# print("But when decrypted from either represention still returns it's orginal plain text")
-# print(PSA.decrypt(PSA.encrypt("This is a cool bit a text that when encrypted looks like this!")))
 
 def interface():
 
