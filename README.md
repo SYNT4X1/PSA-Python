@@ -31,7 +31,7 @@
     FUTURE PLANS
   </h1>
   
-  - make generation faster and optimize the exncryption and decyrption methods
+  - make generation faster and optimize the encryption and decryption methods
   - implement server and client api 
   - implement rsa key exchange
   - implement key combination through xor operation or something similar
