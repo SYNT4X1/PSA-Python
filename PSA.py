@@ -11,13 +11,9 @@
 # total haul on quality of life for installation and code
 # Technical Update:
 #   - implementation of blum blum shub for cryptographically secure rng
-#   - implementation of rsa for key exchanges
-#   - key mixing using xor and complicated math
 # 
 # Fun Updates:
-#   - Server and client api for PSA using socket library
 #   - hex encoded keyfiles and keyfile import for reusing keys
-#   - implementation of chunk based encryption and lossless data compression for effiecient code and packing
 
 #============================================================
 # IMPORTS
