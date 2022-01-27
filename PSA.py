@@ -214,8 +214,6 @@ class BBS:
 
 class keyGeneration:
 
-    '''haha this isn't finished, not even close'''
-
     def decodeKeyFile(keyFile): # a function for decoding the hex encoded files line by line
 
         decoded = [] # a list for storing decoded lines 
